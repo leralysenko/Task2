@@ -1,0 +1,954 @@
+.container {
+	position: absolute;
+	background: #efefef;
+	height: 8263px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.header {
+	background-image: url('./img/car2.jpg');
+	height: 998px;
+}
+
+.nav1 {
+	position: absolute;
+	background-image: url('./img/justgoaway.png'); 
+	height: 78px;
+	width: 22%;
+	margin-left: 12%;
+	margin-top: 3.066667%;
+}
+
+.nav2 {
+	position: absolute;
+	right: 9.333%;
+	top: 35px;
+}
+
+ul.menu li {
+	display: inline;
+	margin-right: 20px;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	color: white;
+	font-size: 12.5px; 
+	font-weight: bold;
+}
+
+.justgo {
+	position: absolute;
+	color: #ff5400;
+	font-size: 3.125em; 
+	font-weight: 800;
+	right: 10.6667%;
+	top: 370px;
+	font-family: sans-serif;
+}
+
+.totraveling {
+	position: absolute;
+	color: white;
+	font-size: 3.125em; 
+	font-weight: 800;
+	right: 10.6667%;
+	top: 445px;
+	font-family: sans-serif;
+}
+
+.layer1 {
+	position: absolute;
+	background-image: url('./img/layer1.png');
+	right: 11.2%;
+	top: 545px;
+	width: 9.2%;
+	height: 4px;
+}
+
+.fortext1 {
+	position: absolute;
+	right: 9.6667%;
+	top: 570px;
+	width: 40.6667%;
+	height: 123px;
+	background: black;
+	opacity: 0.3;
+	border-radius: 10px;
+}
+
+.fortext11 {
+	position: absolute;
+	right: 10%;
+	top: 582px;
+	width: 40.6667%;
+	height: 123px;
+	color: #ffffff;
+	font-size: 1.125em; 
+	font-family: sans-serif;
+	text-align: right;
+	padding-left: 15px;
+	line-height: 34px;
+}
+
+.button1 {
+	position: absolute;
+	right: 13.8667%;
+	top: 765px;
+	width: 12.2%;
+	height: 49px;
+	border: 5px solid white;
+	border-radius: 10px;
+	color: #ff5400;
+	font-size: 1.125em; 
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.intro {
+	position: absolute;
+	top: 999px;
+	height: 500px;
+	width: 100%;
+}
+
+.shape3 {
+	position: absolute;
+	background-image: url('./img/Shape3.png');
+	left: 46.6%;
+	top: 53px;
+	width: 81px;
+	height: 71px;
+}
+
+.justgo2 {
+	position: absolute;
+	background-image: url('./img/JustGo2.png');
+	left: 43%;
+	top: 163px;
+	width: 129px;
+	height: 26px;
+}
+
+.away2 {
+	position: absolute;
+	background-image: url('./img/Away2.png');
+	left: 51.4667%;
+	top: 163px;
+	width: 81px;
+	height: 26px;
+}
+
+.fortext2 {
+	position: absolute;
+	right: 17.8667%;
+	top: 252px;
+	width: 64.2%;
+	height: 82px;
+	color: black;
+	font-size: 1em;
+	line-height: 2em; 
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.services {
+	position: absolute;
+	top: 1497px;
+	width: 100%;
+	height: 375px;
+	background: #dfe3e3;
+}
+
+.clock {
+	position: absolute;
+	background-image: url('./img/clock.png');
+	left: 11.6667%;
+	top: 82px;
+	width: 36px;
+	height: 32px;
+}
+
+.packageDeals {
+	position: absolute;
+	background-image: url('./img/PackageDeals.png');
+	left: 11.6667%;
+	top: 141px;
+	width: 115px;
+	height: 16px;
+}
+
+.list1 {
+	position: absolute;
+	width: 15%;
+	height: 108px;
+	top: 168px;
+	left: 10.6%;
+}
+
+.list1 ul {
+	padiing: 0px;
+	margin-left: -20px;
+}
+
+.list1 ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.plane {
+	position: absolute;
+	background-image: url('./img/plane.png');
+	left: 32.8%;
+	top: 96px;
+	width: 24px;
+	height: 24px;
+}
+
+.flight {
+	position: absolute;
+	background-image: url('./img/Flight.png');
+	left: 476px;
+	top: 141px;
+	width: 180px;
+	height: 16px;
+}
+
+.list2 {
+	position: absolute;
+	width: 15%;
+	height: 108px;
+	top: 168px;
+	left: 30.6667%;
+}
+
+.list2 ul {
+	padiing: 0px;
+	margin-left: -20px;
+}
+
+.list2 ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.vector {
+	position: absolute;
+	background-image: url('./img/vector.png');
+	left: 52.0667%;
+	top: 83px;
+	width: 34px;
+	height: 32px;
+}
+
+.lastMinuteDeals {
+	position: absolute;
+	background-image: url('./img/LastMinuteDeals.png');
+	left: 51.733%;
+	top: 141px;
+	width: 145px;
+	height: 12px;
+}
+
+.list3 {
+	position: absolute;
+	width: 15%;
+	height: 108px;
+	top: 168px;
+	left: 50.6%;
+}
+
+.list3 ul {
+	padiing: 0px;
+	margin-left: -20px;
+}
+
+.list3 ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.xo {
+	position: absolute;
+	background-image: url('./img/xo.png');
+	left: 72.8%;
+	top: 82px;
+	width: 19px;
+	height: 31px;
+}
+
+.expediaDailyDeals {
+	position: absolute;
+	background-image: url('./img/ExpediaDailyDeals.png');
+	left: 71.7333%;
+	top: 141px;
+	width: 162px;
+	height: 15px;
+}
+
+.list4 {
+	position: absolute;
+	width: 15%;
+	height: 108px;
+	top: 168px;
+	left: 70.6%;
+}
+
+.list4 ul {
+	padiing: 0px;
+	margin-left: -20px;
+}
+
+.list4 ul li {
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.articles {
+	position: absolute;
+	top: 1872px;
+	width: 100%;
+	height: 810px;
+}
+
+.article {
+	position: absolute;
+	top: 98px;
+	left: 46.533%;
+	width: 103px;
+	height: 20px;
+	background-image: url('./img/Articles.png');
+}
+
+.articleText {
+	position: absolute;
+	right: 23.6667%;
+	top: 158px;
+	width: 52.6667%;
+	height: 48px;
+	color: black;
+	font-size: 1em;
+	line-height: 2em; 
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.clients {
+	position: absolute;
+	top: 2682px;
+	width: 100%;
+	height: 363px;
+}
+
+.client {
+	position: absolute;
+	top: 89px;
+	left: 46.933%;
+	width: 93px;
+	height: 19px;
+	background-image: url('./img/Clients.png');
+}
+
+
+.portfolio {
+	position: absolute;
+	top: 3045px;
+	width: 100%;
+	height: 944px;
+}
+
+.portfolioand {
+	position: absolute;
+	top: 136px;
+	left: 39.2667%;
+	width: 324px;
+	height: 19px;
+	background-image: url('./img/Portfolioand.png');
+}
+
+.portfolioText {
+	position: absolute;
+	right: 23.6667%;
+	top: 195px;
+	width: 52.6667%;
+	height: 48px;
+	color: black;
+	font-size: 1em;
+	line-height: 2em; 
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.quote {
+	position: absolute;
+	top: 3987px;
+	width: 100%;
+	height: 305px;
+	background: #4e4e4e;
+}
+
+.quoteText1 {
+	position: absolute;
+	top: 134px;
+	left: 35%;
+	font-size: 1.375em;
+	font-family: sans-serif;
+	font-style: italic;
+	color: #ff5a00;
+}
+
+.quoteText2 {
+	position: absolute;
+	top: 134px;
+	left: 39.4667%;
+	font-size: 1.375em;
+	font-family: sans-serif;
+	font-style: italic;
+	color: white;
+}
+
+.teamMembers {
+	position: absolute;
+	top: 4292px;
+	width: 100%;
+	height: 680px;
+}
+
+.tMSign {
+	position: absolute;
+	top: 108px;
+	left: 42.6%;
+	width: 224px;
+	height: 22px;
+	background-image: url('./img/TeamMembers.png');
+}
+
+.tMText {
+	position: absolute;
+	right: 26%;
+	top: 178px;
+	width: 50.6%;
+	height: 49px;
+	color: black;
+	font-size: 1em;
+	line-height: 2em; 
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.members {
+	position: absolute;
+	top: 323px;
+	left: 17.4%;
+	width: 67.06667%;
+	height: 220px;
+}
+
+.t1 {
+	position: absolute;
+	right: 90.656%;
+	top: 5px;
+	width: 107px;
+	height: 209px;
+	background-image: url('./img/t1.png');
+}
+
+.t2 {
+	position: absolute;
+	right: 61.2326%;
+	width: 120px;
+	height: 220px;
+	background-image: url('./img/t2.png');
+}
+
+.t3 {
+	position: absolute;
+	right: 30.81%;
+	top: 6px;
+	width: 116px;
+	height: 202px;
+	background-image: url('./img/t3.png');
+}
+
+.t4 {
+	position: absolute;
+	right: 0%;
+	width: 137px;
+	height: 217px;
+	background-image: url('./img/t4.png');
+}
+
+.consult {
+	position: absolute;
+	top: 4968px;
+	width: 100%;
+	height: 686px;
+	background-image: url('./img/consult.png');
+}
+
+.consultNum {
+	position: absolute;
+	right: 31.0667%;
+	top: 125px;
+	width: 18.733%;
+	height: 22px;
+	color: white;
+	font-size: 1.8125em; 
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.rec7 {
+	position: absolute;
+	top: 203px;
+	right: 17.6%;
+	width: 686px;
+	height: 293px;
+	background-image: url('./img/Rectangle7.png');
+}
+
+.effPr {
+	position: absolute;
+	top: 36px;
+	left: 13.99%;
+	width: 167px;
+	height: 100px;
+	background-image: url('./img/EffectualProjects.png');
+}
+
+.aweCl {
+	position: absolute;
+	top: 36px;
+	left: 62.0058%;
+	width: 162px;
+	height: 100px;
+	background-image: url('./img/AwesomeClients.png');
+}
+
+.pacDe {
+	position: absolute;
+	top: 151px;
+	left: 16.18%;
+	width: 135px;
+	height: 100px;
+	background-image: url('./img/PackageDeals2.png');
+}
+.hotLi {
+	position: absolute;
+	top: 151px;
+	left: 67.6384%;
+	width: 94px;
+	height: 100px;
+	background-image: url('./img/HotelList.png');
+}
+
+.rec35 {
+	position: absolute;
+	top: 494px;
+	right: 38.46667%;
+	width: 63px;
+	height: 6px;
+	background-image: url('./img/Rectangle35.png');
+}
+
+.food {
+	position: absolute;
+	top: 5654px;
+	width: 100%;
+	height: 1370px;
+}
+
+.foodConnection {
+	position: absolute;
+	top: 76px;
+	right: 41.8667%;
+	width: 244px;
+	height: 28px;
+	background-image: url('./img/foods/FoodConnection.png');
+}
+
+.nuggets {
+	position: absolute;
+	top: 226px;
+	right: 46.86667%;
+	width: 352px;
+	height: 146px;
+	background-image: url('./img/foods/nuggets.png');
+}
+
+.foodText1 {
+	position: absolute;
+	top: 229px;
+	right: 27.86667%;
+	width: 16.333%;
+	height: 114px;
+	font-family: sans-serif;
+	line-height: 0.75em;
+
+}
+.foodText1 p {
+	font-size: 0.5625em;
+}
+
+
+.burger1 {
+	position: absolute;
+	top: 386px;
+	right: 46.86667%;
+	width: 352px;
+	height: 146px;
+	background-image: url('./img/foods/burger1.png');
+}
+
+.foodText2 {
+	position: absolute;
+	top: 390px;
+	right: 27.86667%;
+	width: 16.333%;
+	height: 114px;
+	font-family: sans-serif;
+	line-height: 0.75em;
+
+}
+.foodText2 p {
+	font-size: 0.5625em;
+}
+
+.dish {
+	position: absolute;
+	top: 576px;
+	right: 46.86667%;
+	width: 452px;
+	height: 303px;
+	background-image: url('./img/foods/dish.png');
+}
+
+.foodText3 {
+	position: absolute;
+	top: 615px;
+	right: 21.133%;
+	width: 350px;
+	height: 155px;
+	font-family: sans-serif;
+	line-height: 1.25em;
+
+}
+.foodText3 p {
+	font-size: 0.875em;
+}
+
+.burger2 {
+	position: absolute;
+	top: 921px;
+	right: 46.86667%;
+	width: 352px;
+	height: 146px;
+	background-image: url('./img/foods/burger2.png');
+}
+
+.foodText4 {
+	position: absolute;
+	top: 917px;
+	right: 27.86667%;
+	width: 16.333%;
+	height: 114px;
+	font-family: sans-serif;
+	line-height: 0.75em;
+
+}
+.foodText4 p {
+	font-size: 0.5625em;
+}
+
+.burger3 {
+	position: absolute;
+	top: 1082px;
+	right: 46.86667%;
+	width: 352px;
+	height: 146px;
+	background-image: url('./img/foods/burger3.png');
+}
+
+.foodText5 {
+	position: absolute;
+	top: 1078px;
+	right: 27.86667%;
+	width: 16.333%;
+	height: 114px;
+	font-family: sans-serif;
+	line-height:  0.75em;
+
+}
+.foodText5 p {
+	font-size: 0.5625em;
+}
+
+.blog {
+	position: absolute;
+	top: 7024px;
+	width: 100%
+	height: 285px;
+}
+
+.tweets {
+	position: absolute;
+	top: 7309px;
+	width: 100%;
+	height: 455px;
+}
+
+.tweet {
+	position: absolute;
+	top: 73px;
+	left: 49.06667%;
+	width: 27px;
+	height: 22px;
+	background-image: url('./img/tweet.png');
+}
+
+.girl {
+	position: absolute;
+	top: 131px;
+	left: 44.0667%;
+	width: 201px;
+	height: 125px;
+	background-image: url('./img/girl.png');
+}
+
+.tweetText {
+	position: absolute;
+	right: 22.0667%;
+	top: 252px;
+	width: 57%;
+	height: 58px;
+	color: black;
+	font-size: 1.125em;
+	line-height: 2.1875em; 
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.loveless {
+	position: absolute;
+	top: 355px;
+	left: 47.6667%;
+	width: 70px;
+	height: 14px;
+	background-image: url('./img/loveless.png');
+}
+
+.footer {
+	position: absolute;
+	top: 7773px;
+	width: 100%;
+	height: 490px;
+	background: #212121;
+}
+
+.justgoaway1 {
+	position: absolute;
+	top: 75px;
+	left: 10.9333%;
+	width: 178px;
+	height: 20px;
+	background-image: url('./img/justgoaway1.png');
+}
+
+.footerText1 {
+	position: absolute;
+	top: 119px;
+	left: 10.93%;
+	width: 30.6%;
+	height: 37px;
+	color: #999999;
+	font-size: 0.8125em;
+	line-height: 1.6875em; 
+	font-family: sans-serif;
+}
+
+.inputEmail, .inputSubject, .inputMessage {
+	position: absolute;
+	top: 199px;
+	left: 11.0667%;
+	width: 13.333%;
+	height: 21px;
+	border: none;
+	border-bottom: 1px solid #474747;
+	background: none;
+	color: #474747;
+}
+
+.inputSubject {	
+	top: 199px;
+	left: 26.2%;
+}
+
+.inputMessage {
+	top: 240px;
+	left: 10.9333%;
+	width: 28.533%;
+}
+
+.inputButton {
+	position: absolute;
+	top: 355px;
+	left: 11%;
+	width: 43px;
+	height: 10px;
+	background: url(./img/SEND.png);
+	border: none;
+}
+
+.link, .friend, .social {
+	position: absolute;
+	top: 56px;
+	right: 44.6%;
+	width: 4.333%;
+	height: 202px;
+	font-family: sans-serif;
+	text-decoration: none;
+	line-height: 1.5625em;
+	color: #999999;
+	text-decoration: none;
+
+}
+
+.link, .friend, .social a {
+	font-size: 0.75em;
+	text-decoration: none;
+}
+
+.friend {
+	top: 58px;
+	right: 31.2%;
+}
+
+.social {
+	top: 56px;
+	right: 18%;
+}
+
+.line {
+	position: absolute;
+	top: 378px;
+	left: 11%;
+	width: 78%;
+	height: 1px;
+	background-image: url('./img/line.png');
+}
+
+.year2016 {
+	position: absolute;
+	left: 11%;
+	top: 407px;
+	width: 22.33%;
+	height: 37px;
+	color: white;
+	font-size: 0.8125em;
+	line-height: 1.5em; 
+	font-family: sans-serif;
+	color: #999999;
+}
+
+.footerMenu {
+	position: absolute;
+	left: 68.8667%;
+	top: 418px;
+	width: 317px;
+	height: 33px;
+	background-image: url('./img/footerMenu.png');
+}
+
+.d1 a{
+	position: absolute;
+	top: 11px;
+	left: 3.4%;
+	font-family: sans-serif;
+	font-size: 0.75em;
+	text-decoration: none;
+	color: #6d6d6d;
+}
+
+.d2 a{
+	position: absolute;
+	top: 11px;
+	left: 23.659%;
+	font-family: sans-serif;
+	font-size: 0.75em;
+	text-decoration: none;
+	color: #6d6d6d;
+}
+
+.d3 a{
+	position: absolute;
+	top: 11px;
+	left: 61.829%;
+	font-family: sans-serif;
+	font-size: 0.75em;
+	text-decoration: none;
+	color: #6d6d6d;
+}
+
+.d4 a{
+	position: absolute;
+	top: 11px;
+	left: 88.0126%;
+	font-family: sans-serif;
+	font-size: 0.75em;
+	text-decoration: none;
+	color: #6d6d6d;
+}
+
+/*Карусель*/
+.carousel1 {
+	position: absolute;
+	top: 322px;
+	left: 165px;
+	width: 1170px;
+}
+
+.carousel2 {
+	position: absolute;
+	top: 160px;
+	left: 381px;
+	width: 870px;
+}
+
+.carousel3 {
+	position: absolute;
+	top: 422px;
+	left: -2px;
+	width: 1500px;
+	margin-left: 20px;
+}
+
+.carousel4 {
+	position: absolute;
+	top: 144px;
+	left: 174px;
+	width: 1170px;
+}
+
+@media screen and (min-width: 970px) and (max-width: 1200px ) {
+	.header {
+		background-image: none;
+	}
+}
+
+@media screen and (min-width: 770px) and (max-width: 969px ) {
+	
+}
+
+@media screen and (min-width: 320px) and (max-width: 770px ) {
+	
+}
