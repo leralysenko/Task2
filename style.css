@@ -16,7 +16,7 @@
 	position: absolute;
 	background-image: url('./img/justgoaway.png'); 
 	height: 78px;
-	width: 22%;
+	width: 330px;
 	margin-left: 12%;
 	margin-top: 3.066667%;
 }
@@ -212,7 +212,7 @@ ul.menu li a {
 .flight {
 	position: absolute;
 	background-image: url('./img/Flight.png');
-	left: 476px;
+	left: 31.7333%;
 	top: 141px;
 	width: 180px;
 	height: 16px;
@@ -637,7 +637,7 @@ ul.menu li a {
 	position: absolute;
 	top: 615px;
 	right: 21.133%;
-	width: 350px;
+	width: 23.3333%;
 	height: 155px;
 	font-family: sans-serif;
 	line-height: 1.25em;
@@ -913,42 +913,512 @@ ul.menu li a {
 .carousel1 {
 	position: absolute;
 	top: 322px;
-	left: 165px;
-	width: 1170px;
+	left: 11%;
+	width: 78%;
 }
 
 .carousel2 {
 	position: absolute;
 	top: 160px;
-	left: 381px;
-	width: 870px;
+	left: 25.4%;
+	width: 58%;
 }
 
 .carousel3 {
 	position: absolute;
 	top: 422px;
-	left: -2px;
-	width: 1500px;
+	left: -0.1333%;
+	width: 100%;
 	margin-left: 20px;
 }
 
 .carousel4 {
 	position: absolute;
 	top: 144px;
-	left: 174px;
+	left: 11.6%;
 	width: 1170px;
 }
 
-@media screen and (min-width: 970px) and (max-width: 1200px ) {
-	.header {
-		background-image: none;
+
+
+@media screen and (min-width: 970px) and (max-width: 1300px ) {
+	.fortext11 {
+		font-size: 1em; 
+		line-height: 30px;
 	}
+	.away2 {
+		left: 43%;
+		top: 185px;
+	}
+
+	.packageDeals {
+		background-image: url('./img/PackageDeals.png');
+	}
+
+	.list1 ul {
+		margin-left: -20px;
+	}
+
+	.list1 ul li {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.flight {
+		background-image: url('./img/Flight.png');
+	}
+
+	.list2 ul {
+		margin-left: -20px;
+	}
+
+	.list2 ul li {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.lastMinuteDeals {
+		background-image: url('./img/LastMinuteDeals.png');
+	}
+
+	.list3 ul {
+		margin-left: -20px;
+	}
+
+	.list3 ul li {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.expediaDailyDeals {
+		background-image: url('./img/ExpediaDailyDeals.png');
+	}
+
+	.list4 ul {
+		margin-left: -20px;
+	}
+
+	.list4 ul li {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.articleText {
+		font-size: 1em;
+		line-height: 2em; 
+	}
+
+	.portfolioand {
+	left: 39.2667%;
+	}
+
+	.portfolioText {
+		font-size: 1em;
+		line-height: 2em; 
+	}
+
+	.quoteText1 {
+	left: 35%;
+	}
+
+	.quoteText2 {
+		top: 155px;
+		left: 35%;
+	}
+
+	.tMSign {
+		left: 37.6%;
+	}
+
+	.tMText {
+		font-size: 1em;
+		line-height: 2em; 
+	}
+
+	.tweet {
+		left: 49.06667%;
+	}
+
+	.girl {
+		left: 44.0667%;
+	}
+
+	.tweetText {
+		right: 22.0667%;
+		font-size: 1.125em;
+		line-height: 2.1875em; 
+	}
+
+	.loveless {
+		left: 47.6667%;
+	}
+
+	.footerMenu {
+		left: 60%;
+	}
+	.carousel4 {
+		left: 11.6%;
+		width: 700px;
+	}
+
 }
 
 @media screen and (min-width: 770px) and (max-width: 969px ) {
-	
+	.nav1 {
+		background-image: none; 
+	}
+	.fortext11 {
+		font-size: 0.75em;
+		line-height: 28px; 
+	}
+	.away2 {
+		left: 43%;
+		top: 185px;
+	}
+	.fortext2 {
+		font-size: 0.75em;
+	}
+
+	.packageDeals {
+		background-image: none;
+	}
+
+	.list1 ul {
+		margin-left: -20px;
+	}
+
+	.list1 ul li {
+		font-size: 10px;
+		line-height: 17px;
+	}
+
+	.flight {
+		background-image: none;
+	}
+
+	.list2 ul {
+		margin-left: -20px;
+	}
+
+	.list2 ul li {
+		font-size: 10px;
+		line-height: 17px;
+	}
+
+	.lastMinuteDeals {
+		background-image: none;
+	}
+
+	.list3 ul {
+		margin-left: -20px;
+	}
+
+	.list3 ul li {
+		font-size: 10px;
+		line-height: 17px;
+	}
+
+	.expediaDailyDeals {
+		background-image: none;
+		}
+
+	.list4 ul {
+		margin-left: -20px;
+	}
+
+	.list4 ul li {
+		font-size: 10px;
+		line-height: 17px;
+	}
+	.articleText {
+		font-size: 1em;
+		line-height: 28px; 
+	}
+
+	.portfolioand {
+		left: 31.2667%;
+	}
+
+	.portfolioText {
+		font-size: 1em;
+		line-height: 28px; 
+	}
+	.quoteText1 {
+		left: 35%;
+	}
+
+	.quoteText2 {
+		top: 155px;
+		left: 35%;
+	}
+
+	.tMSign {
+		left: 33.6%;
+	}
+	.tMText {
+		font-size: 1em;
+		line-height: 28px; 
+	}
+	.consultNum {
+		font-size: 1.5em; 
+	}
+	.rec7 {
+		width: 600px;
+	}
+	.girl {
+		left: 41.0667%;
+	}
+
+	.tweetText {
+		right: 22.0667%;
+		font-size: 1em;
+		line-height: 2em; 
+	}
+
+	.footerMenu {
+		left: 50%;
+	}
+	.carousel4 {
+		left: 11.6%;
+		width: 700px;
+	}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 770px ) {
-	
+	.nav1 {
+		background-image: none; 
+	}
+	.justgo {
+		font-size: 3em; 
+	}
+
+	.totraveling {
+		font-size: 3em; 
+	}
+	.fortext11 {
+		font-size: 0.5em;
+		line-height: 26px; 
+	}
+	.button1 {
+		font-size: 0.7em; 
+	}
+	.away2 {
+		left: 43%;
+		top: 185px;
+	}
+	.fortext2 {
+		font-size: 0.75em;
+	}
+
+	.packageDeals {
+		background-image: none;
+	}
+
+	.list1 ul {
+		margin-left: -45px;
+	}
+
+	.list1 ul li {
+		font-size: 8px;
+		line-height: 14px;
+	}
+
+	.flight {
+		background-image: none;
+	}
+
+	.list2 ul {
+		margin-left: -45px;
+	}
+
+	.list2 ul li {
+		font-size: 8px;
+		line-height: 14px;
+	}
+
+	.lastMinuteDeals {
+		background-image: none;
+	}
+
+	.list3 ul {
+		margin-left: -45px;
+	}
+
+	.list3 ul li {
+		font-size: 8px;
+		line-height: 14px;
+	}
+
+	.expediaDailyDeals {
+		background-image: none;
+		}
+
+	.list4 ul {
+		margin-left: -45px;
+	}
+
+	.list4 ul li {
+		font-size: 8px;
+		line-height: 14px;
+	}
+	.article {
+    	left: 37.533%;
+	}	
+	.articleText {
+		font-size: 0.75em;
+		line-height: 26px; 
+	}
+
+	.portfolioand {
+		left: 20.2667%;
+	}
+
+	.portfolioText {
+		font-size: 0.75em;
+		line-height: 26px; 
+	}
+	.quoteText1 {
+	left: 25%;
+	}
+
+	.quoteText2 {
+		top: 155px;
+		left: 25%;
+	}
+	.tMSign {
+		left: 30.6%;
+	}
+	.tMText {
+		font-size: 1em;
+		line-height: 2em; 
+	}
+	.t1 {
+		background-image: none;
+	}
+	.t2 {
+		background-image: none;
+	}
+	.t3 {
+		background-image: none;
+	}
+	.t4 {
+		background-image: none;
+	}
+
+	.consultNum {
+		font-size: 1.3em; 
+	}
+
+	.rec7 {
+		width: 400px;
+		right: 2%;
+	}
+
+	.effPr {
+		left: 10.99%;
+	}
+
+	.aweCl {
+		left: 58.0058%;
+	}
+
+	.foodConnection {
+		right: 25.8667%;
+	}
+
+	.nuggets {
+	right: 10%;
+	}
+
+	.foodText1 {
+		width: 0px;
+		height: 0px;
+		font-size: 0em;
+	}
+	.foodText1 p {
+		font-size: 0em;
+	}
+
+	.burger1 {
+		right: 10%;
+	}
+
+	.foodText2 {
+		width: 0px;
+		height: 0px;
+		font-size: 0em;
+	}
+	.foodText2 p {
+		font-size: 0em;
+	}
+
+	.dish {
+		right: 1%;
+	}
+	.foodText3 {
+		width: 0px;
+		height: 0px;
+		font-size: 0em;
+	}
+	.foodText3 p {
+		font-size: 0em;
+	}
+	.burger2 {
+		right: 10%;
+	}
+
+	.foodText4 {
+		width: 0px;
+		height: 0px;
+		font-size: 0em;
+	}
+	.foodText4 p {
+		font-size: 0em;
+	}
+
+	.burger3 {
+		right: 10%;
+	}
+
+	.foodText5 {
+		width: 0px;
+		height: 0px;
+		font-size: 0em;
+	}
+	.foodText5 p {
+		font-size: 0em;
+	}
+
+	.girl {
+		background-image: none;
+	}
+
+	.tweetText {
+		right: 22.0667%;
+		font-size: 0.75em;
+		line-height: 1.5em; 
+		top: 170px;
+	}
+	.loveless {
+		left: 40.6667%;
+	}
+
+	.footerText1 {
+		font-size: 0em;
+	}
+
+	.link, .friend, .social {
+		font-size: 0em;
+	}
+
+	.year2016 {
+		font-size: 0em;
+	}
+	.footerMenu {
+		left: 9%;
+	}
+	.carousel4 {
+		left: 11.6%;
+		width: 400px;
+	}
 }
